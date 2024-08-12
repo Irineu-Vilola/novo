@@ -70,7 +70,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
 
 }
@@ -80,6 +80,8 @@ header{
     padding: 10px;
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
     
     
 }
