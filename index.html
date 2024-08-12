@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/mideas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/css/animacao.css">
+    <title>horizon</title>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader"></div>
+    <header>
+        <div class="container">
+
+            <div class="container-linha-logo">
+              <div onclick="animarMenu()"  class="hamburguer" id="btn-menu">
+              
+              <span class="linha"></span>
+              <span class="linha"></span>
+              <span class="linha"></span>
+              </div>
+              
+              <div class="logo"><img src="src/img/logo.png" alt=""></div>
+            </div>
+
+          <div class="menu">
+            <ul>
+                <li><a href="#"><i class="bi bi-house-fill"></i>Home</a></li>
+                <li><a href="#"><i class="bi bi-house-fill"></i>Contactos</a></li>
+                <li><a href="#"><i class="bi bi-house-fill"></i>Produtos</a></li>
+                <li><a href="#"><i class="bi bi-house-fill"></i>Sobre</a></li>
+
+            </ul>
+          </div>
+          
+        
+          <div class="menu-mobile" id="menu-mobile">
+            <ul>
+              <div class="menu-titulo"><h3>Menu</h3></div>
+             
+              
+                <li><i class="bi bi-house-fill"></i><a href="#"></i>Home</a></li>
+                <li><i class="bi bi-house-fill"></i><a href="#">Contactos</a></li>
+                <li><i class="bi bi-house-fill"></i><a href="#">Produtos</a></li>
+                <li><i class="bi bi-house-fill"></i><a href="#">Sobre</a></li>
+
+                <hr>
+
+                <div class="menu-email">
+                  <p>horizon@gmai.com</p>
+                </div>
+
+            </ul>
+           
+          </div>
+          <div class="social">
+            <a href="#"><i class="bi bi-search"></i></a>
+            
+            <a class="open-modal" data-modal="modal-1" href="#"><i  class="bi bi-person-badge"></i></a>
+
+            <a href="#"><i class="bi bi-bag-fill"></i></a>
+        
+          </div>
+        </div>
+    </header>
+
+    <!-- Modal -->
+    <dialog id="modal-1">
+      <form action="#">
+          <!-- Cabeçalho do modal -->
+          <div class="modal-header">
+              <!-- Título do modal -->
+              <h1 class="modal-title">Logim</h1>
+
+              <!-- Botão para fechar o modal -->
+              <button class="close-modal" type="button" data-modal="modal-1">
+                  <i class="fa-solid fa-xmark"></i>
+              </button>
+          </div>
+  
+          <!-- Corpo do modal -->
+          <div class="modal-body">
+              <!-- Campo de e-mail -->
+              <div class="input-group">
+                  <label for="email">Email</label>
+                  <input 
+                      type="email" 
+                      id="email" 
+                      name="email" 
+                      placeholder="name@example.com"
+                  >
+              </div>
+  
+              <!-- Campo de senha -->
+              <div class="input-group">
+                  <label for="password">Senha</label>
+                  <input 
+                      type="password" 
+                      id="password"
+                      name="password"
+                      placeholder="•••••••"
+                  >
+              </div>
+
+              <!-- Opções de senha -->
+              <div class="password-options">
+                  <div class="remember-password">
+                      <input 
+                          type="checkbox" 
+                          id="remember_password" 
+                          name="remember_password"
+                      >
+                      <label for="remember_password">Remember me</label>
+                  </div>
+
+                  <a href="#" class="forgot-password">Forgot password?</a>
+              </div>
+
+              <!-- Botão de login -->
+               <input id="login_button" type="submit" value="Entrar">
+
+              <!-- Botão de registro -->
+              <div class="register">
+                  <span>Não tem registro?</span>
+                  <a href="">clica aqui</a>
+              </div>
+          </div>
+      </form>
+  </dialog>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+
+          <div>
+            <h1>Bem Vindo a Horizon</h1>
+          </div>
+
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure eius nemo ut, vitae eaque, reprehenderit sunt ipsa in mollitia eveniet officia maiores velit dicta quidem incidunt architecto quae dolor?</p>
+            v
+          </div>
+          <div class="hero-img">
+           
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+
+
+    <script src="src/java/script.js"></script>
+    
+</body>
+</html>
