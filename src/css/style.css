@@ -43,8 +43,8 @@ i{
     
 }
 h1,h2,h3,h4,h5{
-    font-family: "Crimson Text", serif;
     color: #f29100c5;
+    font-family: "Oleo Script", system-ui;
 
 }
 p{
@@ -52,11 +52,18 @@ p{
     font-family: "Crimson Text", serif;
 }
 input{
-    background-color: #d1d2dbcc;
-    padding: 5px;
+    
+    font-size: .8em;
     border: none;
-    border-radius: 5px;
+    background-color: #c6c9e8;
+    border-radius: 8px;
+    padding: 10px 16px;
+
 }
+input:focus {
+    outline: 1px solid #f29100c5;
+}
+
 hr{
     width: 100%;
     border: 1px solid #f29200;
@@ -70,8 +77,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    padding: 10px;
 
 }
 header{
@@ -325,4 +333,59 @@ dialog {
     text-decoration: none;
 }
 
+
+
+/* === Section Hero=== */
+
+#hero{
+    padding-top: 80px;
+    background-color:#202753;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.205);
+    
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 30px;
+}
+
+.hero-form{
+    font-size: 1.1em;
+}
+.hero-form h1{
+    margin:20px 0px;
+
+
+}
+.hero-form form{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+   
+
+}
+.hero-form form p{
+    margin: 10px;
+    color: #c6c9e8;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-form input{
+    padding: 12px;
+}
+.btn-input{
+    width: 150px;
+    margin: 20px 0px 25px 0px;
+    transition: 0.6s;
+}
+.btn-input:hover{
+    background-color: #f29200;
+}
+.hero-carrosel img{
+    display: none;
+}
     

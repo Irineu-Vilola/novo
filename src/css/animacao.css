@@ -6,7 +6,7 @@
     inset: 0;
     z-index: 999999;
     overflow: hidden;
-    background:var(--background-color);
+    background-color: rgba(3, 4, 92, 0.632);
     transition: all 0.6s ease-out;
     
     }
