@@ -12,7 +12,7 @@
     --hero-color: #202753; /* cores de Fundos para sessão hero */
     
     --destaques-color:#f29200; /* cor para relçar as cores do site */
-    --font-color: #000000; /* cor para as letras e para grafos */ 
+    --font-color: #0c0b09; /* cor para as letras e para grafos */ 
 
     --paragrafo-color: #1f284fb5; /* Cor para os pagrafos e textos longos*/
     
@@ -422,14 +422,18 @@ dialog {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: black;
+    background:var(--hero-color);
     padding: 0 0 30px 0;
-    color: #fff;
+    color:var(--link-color);
     font-size: 14px;
+  }
+
+  #footer a{
+    text-decoration: none
   }
   
   #footer .footer-top {
-    background: #0c0b09;
+    background: ;
     border-top: 1px solid #37332a;
     border-bottom: 1px solid #28251f;
     padding: 60px 0 30px 0;
@@ -460,8 +464,7 @@ dialog {
   #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #28251f;
-    color: #fff;
+    background:#202753;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -469,19 +472,18 @@ dialog {
     text-align: center;
     width: 36px;
     height: 36px;
-    transition: 0.3s;
+    transition: 0.6s;
   }
   
   #footer .footer-top .social-links a:hover {
-    background: #cda45e;
+    background:#202753;
     color: #fff;
     text-decoration: none;
   }
   
   #footer .footer-top h4 {
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
     position: relative;
     padding-bottom: 12px;
   }
@@ -521,7 +523,7 @@ dialog {
   }
   
   #footer .footer-top .footer-links ul a:hover {
-    color: #cda45e;
+    color: #cda45e[];
   }
   
   #footer .footer-top .footer-newsletter form {
@@ -537,7 +539,7 @@ dialog {
     border: 0;
     padding: 4px;
     width: calc(100% - 110px);
-    background: #28251f;
+    background: transparent;
     color: white;
   }
   
@@ -550,7 +552,7 @@ dialog {
     background: none;
     font-size: 16px;
     padding: 0 20px 2px 20px;
-    background: #cda45e;
+    background: var(--destaques-color);
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
