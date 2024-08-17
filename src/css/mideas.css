@@ -3,21 +3,18 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
 
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 720px;
-    margin: auto;
-
-}
+  
 
   header{
     background-color:aqua;
   }
   .menu{
-    display: block;
-  }
+    display: flex;
+    gap: 10px;
+    
+    
+
+}
   .menu ul{
     display: flex;
     align-items: center;
@@ -54,21 +51,18 @@ dialog {
 
 @media screen and (min-width:992px) and (max-width:1200px) {
 
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 960px;
-    margin: auto;
-
-}
+ 
   header{
     background-color: blue;
   }
 
   .menu{
-    display: block;
-  }
+    display: flex;
+    gap: 10px;
+    
+    
+
+}
   .menu ul{
     display: flex;
     align-items: center;
@@ -106,20 +100,13 @@ dialog {
 /* ===Telas maiores ===*/
 @media screen and (min-width:1200px) {
 
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1140px;
-    margin: auto;
-
-}
+  
   header{
     
   }
   .menu{
-    display: block;
-  }
+    display: flex;
+}
   .menu ul{
     display: flex;
     align-items: center;
